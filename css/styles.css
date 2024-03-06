@@ -532,16 +532,13 @@ section {
   background-color: #404bbf;
   border: none;
   border-color: #404bbf;
-  .close-icon {
-    fill: #ffffff;
-  }
 }
-/* .button-close-modal:hover .close-icon {
+.button-close-modal:hover .close-icon {
   fill: #ffffff;
 }
-.button-close-modal:focus + .close-icon {
+.button-close-modal:focus .close-icon {
   fill: #ffffff;
-} */
+}
 
 .form-title {
   margin-bottom: 16px;
