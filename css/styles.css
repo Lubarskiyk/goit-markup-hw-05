@@ -498,18 +498,21 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 24px;
-  max-height: 584px;
-  height: 100%;
+  padding: 72px 24px 24px 24px;
+  min-height: 584px;
   max-width: 408px;
   width: 100%;
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close-modal {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -521,17 +524,17 @@ section {
   background-color: #e7e9fc;
   cursor: pointer;
   margin-bottom: 24px;
-  margin-left: auto;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close-modal:hover {
+.button-close-modal:hover,
+.button-close-modal:focus {
   background-color: #404bbf;
   border: none;
   border-color: #404bbf;
-  > .modal-icon {
+  .modal-icon {
     fill: #fff;
   }
 }
@@ -552,6 +555,7 @@ section {
   text-align: center;
   font-weight: 500;
   color: #2e2f42;
+  line-height: 150%;
 }
 .form-text-label {
   font-size: 12px;
