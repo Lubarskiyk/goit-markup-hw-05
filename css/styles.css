@@ -536,6 +536,9 @@ section {
 .button-close-modal:hover .close-icon {
   fill: #ffffff;
 }
+.button-close-modal:focus .close-icon {
+  fill: #ffffff;
+}
 
 .form-title {
   margin-bottom: 16px;
