@@ -528,10 +528,10 @@ section {
   border-color: #404bbf;
 }
 .button-close-modal:hover .modal-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 .button-close-modal:focus + .modal-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-icon {
