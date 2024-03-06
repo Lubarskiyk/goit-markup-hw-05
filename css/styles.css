@@ -532,7 +532,7 @@ section {
   background-color: #404bbf;
   border: none;
   border-color: #404bbf;
-  > .close-icon {
+  .close-icon {
     fill: #ffffff;
   }
 }
