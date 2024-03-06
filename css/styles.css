@@ -596,7 +596,6 @@ section {
 }
 
 .form-checkbox-container {
-  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
