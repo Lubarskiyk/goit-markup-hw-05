@@ -481,13 +481,14 @@ section {
 }
 
 .is-open {
+  position: fixed;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
 .modal {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
