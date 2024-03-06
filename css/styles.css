@@ -424,9 +424,10 @@ section {
 }
 .footer-subscribe-text {
   color: #fff;
+  font-weight: 500;
   margin-bottom: 16px;
 }
-.footer-subscribe-form {
+.footer-subscribe-label {
   display: flex;
   gap: 24px;
 }
@@ -436,6 +437,7 @@ section {
   border-radius: 4px;
   border: 1px solid #fff;
   padding: 8px 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-subscribe-input::placeholder {
   color: #fff;
@@ -447,14 +449,17 @@ section {
 .footer-subscribe-button {
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
   padding-left: 24px;
   padding-right: 24px;
-  gap: 16px;
 }
 .footer-subscribe-icon {
   fill: #fff;
-  height: 20px;
+  height: 24px;
   width: 24px;
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
@@ -489,7 +494,7 @@ section {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.btn-close-modal {
+.button-close-modal {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -507,7 +512,7 @@ section {
     fill 3250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-close-modal:hover {
+.button-close-modal:hover {
   background-color: #404bbf;
   border: none;
   border-color: #404bbf;
