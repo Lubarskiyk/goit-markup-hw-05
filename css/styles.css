@@ -627,9 +627,3 @@ section {
   margin: 0 auto;
   text-align: center;
 }
-.visually-hidden-form {
-  position: absolute;
-  clip-path: inset(100%);
-  top: 0px;
-  left: 0px;
-}
