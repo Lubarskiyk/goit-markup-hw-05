@@ -427,7 +427,7 @@ section {
   font-weight: 500;
   margin-bottom: 16px;
 }
-.footer-subscribe-label {
+.footer-subscribe-form {
   display: flex;
   gap: 24px;
 }
