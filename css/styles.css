@@ -39,7 +39,10 @@ option {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -48,6 +51,7 @@ body {
   letter-spacing: 0.02em;
   background-color: #fff;
 }
+
 .title-1 {
   font-weight: 700;
   font-size: 56px;
@@ -55,6 +59,7 @@ body {
   color: #fff;
   letter-spacing: 0.02em;
 }
+
 .title-2 {
   font-size: 36px;
   font-weight: 700;
@@ -71,6 +76,7 @@ body {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
+
 .button-text {
   border: none;
   background-color: #4d5ae5;
@@ -79,7 +85,10 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .logo-text {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -90,6 +99,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
 }
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -123,6 +133,7 @@ body {
     flex-grow: 1;
   }
 }
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -153,20 +164,24 @@ section {
 .header-logo {
   margin-right: 76px;
 }
+
 .logo-span {
   color: #2e2f42;
 }
+
 .header-nav {
   display: flex;
   justify-content: space-between;
   color: #2e2f42;
   align-items: center;
 }
+
 .header-menu {
   display: flex;
   gap: 40px;
   font-weight: 500;
 }
+
 .header-menu-title {
   display: block;
   padding: 24px 0;
@@ -181,10 +196,12 @@ section {
 .header-contacts {
   font-style: normal;
 }
+
 .header-contacts-list {
   display: flex;
   gap: 40px;
 }
+
 .header-contact {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -193,10 +210,12 @@ section {
 .header-contact:focus {
   color: #404bbf;
 }
+
 .header-menu li:nth-child(1) .header-menu-title {
   position: relative;
   color: #404bbf;
 }
+
 .header-menu li:nth-child(1) .header-menu-title::after {
   content: '';
   position: absolute;
@@ -231,13 +250,12 @@ section {
   max-width: 496px;
   margin: 0 auto 48px;
 }
+
 .hero-button {
   display: block;
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
